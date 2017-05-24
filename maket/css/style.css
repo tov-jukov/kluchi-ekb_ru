@@ -1070,9 +1070,9 @@ button::-moz-focus-inner {
   text-transform: uppercase;
   font-family: "OpenSansBold";
   color: #fff;
-  height: 50px;
-  line-height: 50px;
-  padding: 0 50px;
+  height: 41px;
+  line-height: 41px;
+  padding: -0px 50px 0 50px;
   text-decoration: none;
 }
 /* line 26, ../sass/_custom.scss */
