@@ -355,35 +355,35 @@ if(! defined("DIAFAN"))
                 <div class="specialist-slider">
                     <div class="item">
                         <div class="photo">
-                            <img src="<insert name="path">maket/images/specialist/1.jpg" alt="">
+                            <img src="<insert name="custom" path="images/specialist/1.png">" alt="">
                         </div>
                         <div class="name">
-                            Герасимов Семён Дмитрьевич
+                            Великий Никита Владимирович
                         </div>
                         <p>
-                            консультант по химической зависимости
+                            Психолог, руководитель программы реабилитации
                         </p>
                     </div>
                     <div class="item">
                         <div class="photo">
-                            <img src="<insert name="path">maket/images/specialist/2.jpg" alt="">
+                            <img src="<insert name="custom" path="images/specialist/2.png">" alt="">
                         </div>
                         <div class="name">
-                            Рыбакова Светлана Сергеевна
+                            Нестеренко Андрей Викторович
                         </div>
                         <p>
-                            психолог нашего центра
+                            Психолог, специалист по химической зависимости, консультант реабилитационной программы
                         </p>
                     </div>
                     <div class="item">
                         <div class="photo">
-                            <img src="<insert name="path">maket/images/specialist/3.jpg" alt="">
+                            <img src="<insert name="custom" path="images/specialist/3.png">" alt="">
                         </div>
                         <div class="name">
-                            Орлов Игорь Германович
+                            Валитов Сергей Маратович
                         </div>
                         <p>
-                            нарколог нашего центра
+                           Директор реабилитационного центра, специалист по консультированию созависимых
                         </p>
                     </div>
                     <div class="item">
