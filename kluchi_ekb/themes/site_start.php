@@ -55,8 +55,8 @@ if(! defined("DIAFAN"))
                         <div class="b">бесплатная анонимная консультация</div>
                     </div>
                     <div class="right-column">
-                        <div class="tel">
-                            +7 (863) 303-36-74 </div>
+                        <div class="tel">+7(343)382-46-43</div>
+                        <div class="tel">+7(343)382-46-43</div>
                         <a href="#inline1" class="order">Заказать обратный звонок</a>
                         <br/>
                         <br/>
@@ -388,7 +388,7 @@ if(! defined("DIAFAN"))
                     </div>
                     <div class="item">
                         <div class="photo">
-                            <img src="<insert name="path">maket/images/specialist/4.jpg" alt="">
+                            <img src="<insert name="custom" path="images/specialist/4.jpg">" alt="">
                         </div>
                         <div class="name">
                             Смирнов Сергей Федорович
@@ -412,7 +412,7 @@ if(! defined("DIAFAN"))
                     <div class="item wow fadeInLeft" data-wow-offset="100">
                         <div class="icon">
                             <span>
-                                    <img src="<insert name="path">maket/images/step-icon/1.png" alt="">
+                                    <img src="<insert name="custom" path="images/step-icon/1.png">" alt="">
                                 </span>
                         </div>
                         <div class="t">
@@ -425,7 +425,7 @@ if(! defined("DIAFAN"))
                     <div class="item wow fadeInLeft" data-wow-offset="100" data-wow-delay="0.2s">
                         <div class="icon">
                             <span>
-                                    <img src="<insert name="path">maket/images/step-icon/2.png" alt="">
+                                    <img src="<insert name="custom" path="images/step-icon/2.png">" alt="">
                                 </span>
                         </div>
                         <div class="t">
@@ -438,7 +438,7 @@ if(! defined("DIAFAN"))
                     <div class="item wow fadeInLeft" data-wow-offset="100" data-wow-delay="0.4s">
                         <div class="icon">
                             <span>
-                                    <img src="<insert name="path">maket/images/step-icon/3.png" alt="">
+                                    <img src="<insert name="custom" path="images/step-icon/3.png">" alt="">
                                 </span>
                         </div>
                         <div class="t">
@@ -451,7 +451,7 @@ if(! defined("DIAFAN"))
                     <div class="item wow fadeInLeft" data-wow-offset="100" data-wow-delay="0.6s">
                         <div class="icon">
                             <span>
-                                    <img src="<insert name="path">maket/images/step-icon/4.png" alt="">
+                                    <img src="<insert name="custom" path="images/step-icon/4.png">" alt="">
                                 </span>
                         </div>
                         <div class="t">
@@ -464,7 +464,7 @@ if(! defined("DIAFAN"))
                     <div class="item wow fadeInLeft" data-wow-offset="100" data-wow-delay="0.8s">
                         <div class="icon">
                             <span>
-                                    <img src="<insert name="path">maket/images/step-icon/5.png" alt="">
+                                    <img src="<insert name="custom" path="images/step-icon/5.png">" alt="">
                                 </span>
                         </div>
                         <div class="t">
@@ -530,7 +530,7 @@ if(! defined("DIAFAN"))
         </div>
         <div class="txt-block">
             <div class="wrapper">
-                <h1 class='t-main'>Реабилитационный центр “Гиппократ”</h1>
+                <h1 class='t-main'>Реабилитационный центр “Ключи”</h1>
                 <div class="t2">Лечение наркомании &ndash; это восстановление физического и психического здоровья, трудоспособности и социальных связей, нарушенных в результате употребления наркотических веществ. Оно включает в себя медицинские, социально-правовые, психологические, экономические и духовные аспекты.</div>
                 <h2>Очень важно соблюдать следующие условия:</h2>
                 <ol>
@@ -596,13 +596,16 @@ if(! defined("DIAFAN"))
                         <div class="t">
                             Адрес:
                         </div>
-                        344002, Ростов-на-Дону,
-                        <br /> ул. Баумана, 38 </div>
+                        000000, Екатеринбург,
+                        <br />Пр. Энгельса, 36 <br />
+                        2 подъезд, кабинет 419/8.3
+                    </div>
                     <div class="block-c">
                         <div class="t">
                             Телефоны:
                         </div>
-                        +7 (863) 303-36-74
+                        +7(343)382-46-43, <br />
+                        +7(922)155-11-00
                         <br />
                     </div>
                 </div>
@@ -617,7 +620,7 @@ if(! defined("DIAFAN"))
             <div class="copy-line">
                 <div class="wrapper">
                     <div class="left">
-                        Copyright © 2017 <a href="index.html">Реабилитационный Центр “Гиппократ”</a>. Все права защищены.
+                        Copyright © 2017 <a href="index.html">Реабилитационный Центр “Ключи”</a>. Все права защищены.
                     </div>
                     <div class="social">
                         <a href="#" class="g"></a>
