@@ -55,8 +55,8 @@ if(! defined("DIAFAN"))
                         <div class="b">бесплатная анонимная консультация</div>
                     </div>
                     <div class="right-column">
-                        <div class="tel">+7(343)382-46-43</div>
-                        <div class="tel">+7(922)155-11-00</div>
+                        <div class="tel"><insert name="show_block" module="site" id="1"></div>
+                        <div class="tel"><insert name="show_block" module="site" id="5"></div>
                         <a href="#inline1" class="order">Заказать обратный звонок</a>
                         <br/>
                         <br/>
@@ -596,16 +596,14 @@ if(! defined("DIAFAN"))
                         <div class="t">
                             Адрес:
                         </div>
-                        000000, Екатеринбург,
-                        <br />Пр. Энгельса, 36 <br />
-                        2 подъезд, кабинет 419/8.3
+                        <insert name="show_block" module="site" id="2">
                     </div>
                     <div class="block-c">
                         <div class="t">
                             Телефоны:
                         </div>
-                        +7(343)382-46-43, <br />
-                        +7(922)155-11-00
+                        <insert name="show_block" module="site" id="1">, <br />
+                        <insert name="show_block" module="site" id="5">
                         <br />
                     </div>
                 </div>
