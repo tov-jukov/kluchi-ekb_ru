@@ -123,7 +123,9 @@ if(! defined("DIAFAN"))
             <div class="wrapper">
                 <div class="left-column">
                     <div class="breachroomb">
-                        <a href='../../index.html'>Главная</a> / <a href='../index.html'>О нас</a> / Контакты </div>
+                        <!-- <a href='../../index.html'>Главная</a> / <a href='../index.html'>О нас</a> / Контакты  -->
+                        <insert name="show_path">
+                        </div>
                     <div class="txt-block">
                         <div class="tpl-block-list tpl-component-netcat-stub-address" id="nc-block-881166c221a2cc237b2b8e54fc5635ad">
                             <div id="kontakty"></div>
@@ -292,13 +294,14 @@ if(! defined("DIAFAN"))
                         <div class="t">
                             Адрес:
                         </div>
-                        344002, Ростов-на-Дону,
-                        <br /> ул. Баумана, 38 </div>
+                        <insert name="show_block" module="site" id="2">
+                    </div>
                     <div class="block-c">
                         <div class="t">
                             Телефоны:
                         </div>
-                        +7 (863) 303-36-74
+                        <insert name="show_block" module="site" id="1">, <br />
+                        <insert name="show_block" module="site" id="5">
                         <br />
                     </div>
                 </div>
