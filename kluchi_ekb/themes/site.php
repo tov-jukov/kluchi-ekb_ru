@@ -53,8 +53,7 @@ if(! defined("DIAFAN"))
                         <div class="b">бесплатная анонимная консультация</div>
                     </div>
                     <div class="right-column">
-                        <div class="tel">
-                            +7 (863) 303-36-74 </div>
+                        <div class="tel"><div class="tel"><insert name="show_block" module="site" id="1"></div>
                         <a href="#inline1" class="order">Заказать обратный звонок</a>
                         <br/>
                         <br/>
