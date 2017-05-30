@@ -28,7 +28,7 @@ if(! defined("DIAFAN"))
     <!-- шаблонный тег show_head выводит часть HTML-шапки сайта. Описан в файле themes/functions/show_head.php. -->
     <insert name="show_head">
     <meta name="viewport" content="width=device-width">
-    <link rel="shortcut icon" href="<insert name=" path ">favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="<insert name="path">favicon.ico" type="image/x-icon">
     <!-- шаблонный тег show_css подключает CSS-файлы. Описан в файле themes/functions/show_css.php. -->
     <!-- <insert name="show_css" files="default.css, style.css"> -->
     <insert name="show_css" files="style.css">
@@ -45,7 +45,7 @@ if(! defined("DIAFAN"))
                 <div class="wrapper">
                     <div class="logo">
                         <a href="../../index.html">
-                            <img src="<insert name="path">maket/images/logo.png" alt="Реабилитационный центр Ключи - логотип">
+                            <img src="<insert name="custom" path="images/logo.png" absolute="true">" alt="">
                         </a>
                     </div>
                     <div class="wotk-time">
@@ -64,18 +64,11 @@ if(! defined("DIAFAN"))
             <div class="bottom-head">
                 <div class="wrapper">
                     <nav class="main-menu">
-                        <ul>
-                            <ul>
-                                <li class='active'><a href='../index.html' class='active'>О нас</a></li>
-                                <li><a href='../../lechenie-narkomanii/index.html'>Лечение наркомании</a></li>
-                                <li><a href='../../lechenie-alkogolizma/index.html'>Лечение алкоголизма</a></li>
-                                <li><a href='../../reabilitatsiya/index.html'>Реабилитация</a></li>
-                                <li><a href='../../rodstvennikam/index.html'>Родственникам</a></li>
-                                <li><a href='../../blog/index.html'>Блог</a></li>
-                            </ul>
-                        </ul>
+                        <insert name="show_block" module="menu" id="1" tag_level_start_1="[ul][ul]" tag_start_1="[li]" tag_end_1="[/li]" tag_level_end_1="[/ul][/ul]">
                     </nav>
-                    <div class="block-search">
+
+
+                    <!-- <div class="block-search">
                         <div class="ya-site-form ya-site-form_inited_no" onclick="return {'action':'http://narkologicheskaya-klinika-rostov.ru/search/','arrow':false,'bg':'transparent','fontsize':12,'fg':'#000000','language':'ru','logo':'rb','publicname':'Yandex Site Search #2289724','suggest':true,'target':'_self','tld':'ru','type':3,'usebigdictionary':true,'searchid':2289724,'input_fg':'#999999','input_bg':'#ffffff','input_fontStyle':'normal','input_fontWeight':'normal','input_placeholder':'Поиск по сайту...','input_placeholderColor':'#999999','input_borderColor':'#ffffff'}">
                             <form action="https://yandex.ru/search/site/" method="get" target="_self" accept-charset="utf-8">
                                 <input type="hidden" name="searchid" value="2289724" />
@@ -90,7 +83,7 @@ if(! defined("DIAFAN"))
                             display: none;
                         }
                         </style>
-                <script type="text/javascript">
+                        <script type="text/javascript">
                         (function(w, d, c) {
                             var s = d.createElement('script'),
                                 h = d.getElementsByTagName('script')[0],
@@ -108,7 +101,7 @@ if(! defined("DIAFAN"))
                             })
                         })(window, document, 'yandex_site_callbacks');
                         </script>
-                    </div>
+                    </div> -->
                 </div>
                 <a id="menu-mobile-open" href="#" class="">
                     <span class="top-line"></span>
@@ -132,7 +125,6 @@ if(! defined("DIAFAN"))
                                 <div class='nc_row'>
 
                                 <insert name="show_body">
-
 
                                 </div>
                             </div>
@@ -164,11 +156,12 @@ if(! defined("DIAFAN"))
                     <div class='nav-catalog'>
                         <div class='t'>Меню</div>
                         <nav>
-                            <ul>
-                                <li><a href='../fotogalereya/index.html'>Фотогалерея</a></li>
-                                <li><a href='../otzyvy/index.html'>Отзывы</a></li>
-                                <li class='active'><a href='index.html'>Контакты</a></li>
-                            </ul>
+                            <insert name="show_block" module="menu"
+                                id="1"
+                                tag_level_start_1="[ul]"
+                                tag_start_1="[li]"
+                                tag_end_1="[/li]"
+                                tag_level_end_1="[/ul]">
                         </nav>
                     </div>
                     <div class="why-we-aside">
@@ -178,10 +171,10 @@ if(! defined("DIAFAN"))
                         <div class="single-slider">
                             <div class="item">
                                 <div class="photo">
-                                    <img src="<insert name="path">maket/images/why-we/img1.jpg" alt="">
+                                    <img src="<insert name="custom" path="images/why-we/img1.jpg" absolute="true">" alt="">
                                 </div>
                                 <div class="desk">
-                                    <img src="<insert name="path">maket/images/why-we/v1.jpg" alt="">
+                                    <img src="<insert name="custom" path="images/why-we/v1.jpg" absolute="true">" alt="">
                                     <div class="txt">
                                         <div class="t">Индивидуальный</div>
                                         <p>Подход к каждому</p>
@@ -190,10 +183,10 @@ if(! defined("DIAFAN"))
                             </div>
                             <div class="item">
                                 <div class="photo">
-                                    <img src="<insert name="path">maket/images/why-we/img2.jpg" alt="">
+                                    <img src="<insert name="custom" path="images/why-we/img2.jpg" absolute="true">" alt="">
                                 </div>
                                 <div class="desk">
-                                    <img src="<insert name="path">maket/images/why-we/v2.jpg" alt="">
+                                    <img src="<insert name="custom" path="images/why-we/v2.jpg" absolute="true">" alt="">
                                     <div class="txt">
                                         <div class="t">СПЕЦИАЛИСТЫ</div>
                                         <p>Опытные профессионалы </p>
@@ -202,10 +195,10 @@ if(! defined("DIAFAN"))
                             </div>
                             <div class="item item3">
                                 <div class="photo">
-                                    <img src="<insert name="path">maket/images/why-we/img3.jpg" alt="">
+                                    <img src="<insert name="custom" path="images/img3.jpg" absolute="true">" alt="">
                                 </div>
                                 <div class="desk">
-                                    <img src="<insert name="path">maket/images/why-we/v3.jpg" alt="">
+                                    <img src="<insert name="custom" path="images/why-we/v3.jpg" absolute="true">" alt="">
                                     <div class="txt">
                                         <div class="t">ТРУДОУСТРОЙСТВО</div>
                                         <p>Поможем найти достойную работу</p>
@@ -214,7 +207,7 @@ if(! defined("DIAFAN"))
                             </div>
                             <div class="item item4">
                                 <div class="desk">
-                                    <img src="<insert name="path">maket/images/why-we/v4.jpg" alt="">
+                                    <img src="<insert name="custom" path="images/why-we/v4.jpg" absolute="true">" alt="">
                                     <div class="txt">
                                         <div class="t">ПОЖИЗЕННАЯ</div>
                                         <p>Поддержка и помощь</p>
@@ -223,12 +216,12 @@ if(! defined("DIAFAN"))
                             </div>
                             <div class="item item5">
                                 <div class="photo">
-                                    <img src="<insert name="path">maket/images/why-we/img4.jpg" alt="">
+                                    <img src="<insert name="custom" path="images/why-we/img4.jpg" absolute="true">" alt="">
                                 </div>
                             </div>
                             <div class="item item6">
                                 <div class="desk">
-                                    <img src="<insert name="path">maket/images/why-we/v5.jpg" alt="">
+                                    <img src="<insert name="custom" path="images/why-we/v5.jpg">" alt="">
                                     <div class="txt">
                                         <div class="t">Эффективный</div>
                                         <p>Результат лечения</p>
@@ -366,7 +359,7 @@ if(! defined("DIAFAN"))
     <!-- BEGIN JIVOSITE CODE {literal} -->
     <!-- {/literal} END JIVOSITE CODE -->
 
-    <script src="<insert name="custom" path="js/sourcebuster.min.js">" type="text/javascript" charset="utf-8"></script>
+    <script src="<insert name="custom" path="js/sourcebuster.min.js" type="text/javascript" charset="utf-8"></script>
     <script>
     (function($, undefined) {
         sbjs.init();

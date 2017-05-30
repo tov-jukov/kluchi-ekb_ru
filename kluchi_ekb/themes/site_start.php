@@ -67,18 +67,11 @@ if(! defined("DIAFAN"))
             <div class="bottom-head">
                 <div class="wrapper">
                     <nav class="main-menu">
-                        <ul>
-                            <ul>
-                                <li><a href='o-nas/index.html'>О нас</a></li>
-                                <li><a href='lechenie-narkomanii/index.html'>Лечение наркомании</a></li>
-                                <li><a href='lechenie-alkogolizma/index.html'>Лечение алкоголизма</a></li>
-                                <li><a href='reabilitatsiya/index.html'>Реабилитация</a></li>
-                                <li><a href='rodstvennikam/index.html'>Родственникам</a></li>
-                                <li><a href='blog/index.html'>Блог</a></li>
-                            </ul>
-                        </ul>
+                        <insert name="show_block" module="menu" id="1" tag_level_start_1="[ul][ul]" tag_start_1="[li]" tag_end_1="[/li]" tag_level_end_1="[/ul][/ul]">
                     </nav>
-                    <div class="block-search">
+
+
+                    <!-- <div class="block-search">
                         <div class="ya-site-form ya-site-form_inited_no" onclick="return {'action':'http://narkologicheskaya-klinika-rostov.ru/search/','arrow':false,'bg':'transparent','fontsize':12,'fg':'#000000','language':'ru','logo':'rb','publicname':'Yandex Site Search #2289724','suggest':true,'target':'_self','tld':'ru','type':3,'usebigdictionary':true,'searchid':2289724,'input_fg':'#999999','input_bg':'#ffffff','input_fontStyle':'normal','input_fontWeight':'normal','input_placeholder':'Поиск по сайту...','input_placeholderColor':'#999999','input_borderColor':'#ffffff'}">
                             <form action="https://yandex.ru/search/site/" method="get" target="_self" accept-charset="utf-8">
                                 <input type="hidden" name="searchid" value="2289724" />
@@ -111,7 +104,7 @@ if(! defined("DIAFAN"))
                             })
                         })(window, document, 'yandex_site_callbacks');
                         </script>
-                    </div>
+                    </div> -->
                 </div>
                 <a id="menu-mobile-open" href="#" class="">
                     <span class="top-line"></span>
@@ -132,7 +125,7 @@ if(! defined("DIAFAN"))
                 <div class="block-banner">
                     <div class="item">
                         <div class="icon">
-                            <img src="<insert name="path">maket/images/icon-banner/1.png" alt="">
+                            <img src="<insert name="custom" path="images/icon-banner/1.png">" alt="">
                         </div>
                         <span>
                                 100% гарантия от срыва
@@ -140,7 +133,7 @@ if(! defined("DIAFAN"))
                     </div>
                     <div class="item">
                         <div class="icon">
-                            <img src="<insert name="path">maket/images/icon-banner/2.png" alt="">
+                            <img src="<insert name="custom" path="images/icon-banner/2.png">" alt="">
                         </div>
                         <span>
                                 14 центров по россии
@@ -148,7 +141,7 @@ if(! defined("DIAFAN"))
                     </div>
                     <div class="item">
                         <div class="icon">
-                            <img src="<insert name="path">maket/images/icon-banner/3.png" alt="">
+                            <img src="<insert name="custom" path="images/icon-banner/3.png">" alt="">
                         </div>
                         <span>
                                 более 2000 пациентов
