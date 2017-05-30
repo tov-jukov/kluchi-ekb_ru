@@ -366,7 +366,7 @@ if(! defined("DIAFAN"))
     <!-- BEGIN JIVOSITE CODE {literal} -->
     <!-- {/literal} END JIVOSITE CODE -->
 
-    <script src="<insert name="custom" path="js/sourcebuster.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="<insert name="custom" path="js/sourcebuster.min.js">" type="text/javascript" charset="utf-8"></script>
     <script>
     (function($, undefined) {
         sbjs.init();
