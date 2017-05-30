@@ -315,7 +315,7 @@ if(! defined("DIAFAN"))
             <div class="copy-line">
                 <div class="wrapper">
                     <div class="left">
-                        Copyright © 2017 <a href="../../index.html">Реабилитационный Центр “Гиппократ”</a>. Все права защищены.
+                        Copyright © 2017 <a href="../../index.html">Реабилитационный Центр “Ключи”</a>. Все права защищены.
                     </div>
                     <div class="social">
                         <a href="#" class="g"></a>

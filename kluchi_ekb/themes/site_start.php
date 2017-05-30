@@ -274,10 +274,10 @@ if(! defined("DIAFAN"))
                 <div class="items">
                     <div class="item item1">
                         <div class="photo">
-                            <img src="<insert name="path">maket/images/why-we/img1.jpg" alt="">
+                            <img src="<insert name="custom" path="images/why-we/img1.jpg">" alt="">
                         </div>
                         <div class="desk">
-                            <img src="<insert name="path">maket/images/why-we/v1.jpg" alt="">
+                            <img src="<insert name="custom" path="images/why-we/v1.jpg">" alt="">
                             <div class="txt">
                                 <div class="t">Индивидуальный</div>
                                 <p>Подход к каждому</p>
@@ -286,22 +286,22 @@ if(! defined("DIAFAN"))
                     </div>
                     <div class="item item2">
                         <div class="desk">
-                            <img src="<insert name="path">maket/images/why-we/v2.jpg" alt="">
+                            <img src="<insert name="custom" path="images/why-we/v2.jpg">" alt="">
                             <div class="txt">
                                 <div class="t">СПЕЦИАЛИСТЫ</div>
                                 <p>Опытные профессионалы </p>
                             </div>
                         </div>
                         <div class="photo">
-                            <img src="<insert name="path">maket/images/why-we/img2.jpg" alt="">
+                            <img src="<insert name="custom" path="images/why-we/img2.jpg">" alt="">
                         </div>
                     </div>
                     <div class="item item3">
                         <div class="photo">
-                            <img src="<insert name="path">maket/images/why-we/img3.jpg" alt="">
+                            <img src="<insert name="custom" path="images/why-we/img3.jpg">" alt="">
                         </div>
                         <div class="desk">
-                            <img src="<insert name="path">maket/images/why-we/v3.jpg" alt="">
+                            <img src="<insert name="custom" path="images/why-we/v3.jpg">" alt="">
                             <div class="txt">
                                 <div class="t">ТРУДОУСТРОЙСТВО</div>
                                 <p>Поможем найти достойную работу</p>
@@ -310,7 +310,7 @@ if(! defined("DIAFAN"))
                     </div>
                     <div class="item item4">
                         <div class="desk">
-                            <img src="<insert name="path">maket/images/why-we/v4.jpg" alt="">
+                            <img src="<insert name="custom" path="images/why-we/v4.jpg">" alt="">
                             <div class="txt">
                                 <div class="t">ПОЖИЗЕННАЯ</div>
                                 <p>Поддержка и помощь</p>
@@ -319,17 +319,17 @@ if(! defined("DIAFAN"))
                     </div>
                     <div class="item item8">
                         <div class="photo">
-                            <img src="<insert name="path">maket/images/why-we/img6.jpg" alt="">
+                            <img src="<insert name="custom" path="images/why-we/img6.jpg">" alt="">
                         </div>
                     </div>
                     <div class="item item5">
                         <div class="photo">
-                            <img src="<insert name="path">maket/images/why-we/img4.jpg" alt="">
+                            <img src="<insert name="custom" path="images/why-we/img4.jpg">" alt="">
                         </div>
                     </div>
                     <div class="item item6">
                         <div class="desk">
-                            <img src="<insert name="path">maket/images/why-we/v5.jpg" alt="">
+                            <img src="<insert name="custom" path="images/why-we/v5.jpg">" alt="">
                             <div class="txt">
                                 <div class="t">Эффективный</div>
                                 <p>Результат лечения</p>
@@ -338,7 +338,7 @@ if(! defined("DIAFAN"))
                     </div>
                     <div class="item item7">
                         <div class="photo">
-                            <img src="<insert name="path">maket/images/why-we/img5.jpg" alt="">
+                            <img src="<insert name="custom" path="images/why-we/img5.jpg">" alt="">
                         </div>
                     </div>
                 </div>
