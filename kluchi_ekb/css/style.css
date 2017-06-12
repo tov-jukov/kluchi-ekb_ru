@@ -4449,6 +4449,7 @@ header .bottom-head .block-search form input[type="submit"] {
   text-transform: uppercase;
   line-height: 1.4;
   margin-bottom: 18px;
+  margin-top: -30px;
 }
 /* line 194, ../sass/style.scss */
 .banner .h2 {

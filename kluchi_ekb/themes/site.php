@@ -263,17 +263,17 @@ if(! defined("DIAFAN"))
                     <nav>
                         <ul>
                             <ul>
-                                <li><a href='../fotogalereya/index.html'>Фотогалерея</a></li>
-                                <li><a href='../otzyvy/index.html'>Отзывы</a></li>
+                                <li><a href='#'>Фотогалерея</a></li>
+                                <li><a href='#'>Отзывы</a></li>
                                 <li class='active'><a href='index.html' class='active'>Контакты</a></li>
                             </ul>
                             <ul>
-                                <li><a href='../../rodstvennikam/prinuditelnoe-lechenie-narkomanii/index.html'>Принудительное лечение наркомании</a></li>
-                                <li><a href='../../rodstvennikam/vyzov-narkologa-domoy/index.html'>Вызов нарколога домой</a></li>
+                                <li><a href='#'>Принудительное лечение наркомании</a></li>
+                                <li><a href='#'>Вызов нарколога домой</a></li>
                             </ul>
                             <ul>
-                                <li><a href='../../reabilitatsiya/narkologicheskiy-statsionar/index.html'>Наркологический стационар</a></li>
-                                <li><a href='../../reabilitatsiya/pomosch-narkozavisimym/index.html'>Помощь наркозависимым</a></li>
+                                <li><a href='#'>Наркологический стационар</a></li>
+                                <li><a href='#'>Помощь наркозависимым</a></li>
                             </ul>
                         </ul>
                     </nav>
