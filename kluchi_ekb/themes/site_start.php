@@ -480,7 +480,7 @@ if(! defined("DIAFAN"))
                     <div class="review-slider">
                         <div class="item">
                             <a class="popup-youtube" href="http://www.youtube.com/">
-                                <img src="<insert name="custom" path="images/video-ico.jpg">" alt="Он употреблял наркотики 20 лет! Как он смог бросить?">
+                                <img src="<insert name="custom" path="images/video-ico.jpg">"alt="Он употреблял наркотики 20 лет! Как он смог бросить?">
                             </a>
                             <div class="data-block">
                                 <div class="data">
@@ -491,33 +491,26 @@ if(! defined("DIAFAN"))
                             <p>
                                 Армен - наркоман с двадцатилетним стажем. Выздоравливает уже 5 месяцев. В клинику &quot;Решение&quot; Армен попал в критическом ...
                             </p>
-                            <a href="o-nas/otzyvy/otzyvy_3.html" class="read-more">
-    читать далее
-  </a>
+                            <a href="o-nas/otzyvy/otzyvy_3.html" class="read-more">читать далее</a>
                         </div>
                         <div class="item">
                             <a class="popup-youtube" href="http://www.youtube.com/">
-                                <img src="<insert name="custom" path="images/video-ico.jpg">" alt="Он употреблял наркотики 20 лет! Как он смог бросить?">
+                                <img src="<insert name="custom" path="images/video-ico.jpg">"alt="Он употреблял наркотики 20 лет! Как он смог бросить?">
                             </a>
                             <div class="data-block">
                                 <div class="data">
                                     <span>15</span> 12.2016 </div>
-                                <div class="t">
-                                    Он употреблял наркотики 20 лет! Как он смог бросить? </div>
+                                <div class="t">Он употреблял наркотики 20 лет! Как он смог бросить? </div>
                             </div>
                             <p>
                                 Армен - наркоман с двадцатилетним стажем. Выздоравливает уже 5 месяцев. В клинику &quot;Решение&quot; Армен попал в критическом ...
                             </p>
-                            <a href="#" class="read-more">
-    читать далее
-  </a>
+                            <a href="#" class="read-more">читать далее</a>
                         </div>
                     </div>
                 </div>
                 <div class="center">
-                    <a href="o-nas/otzyvy/index.html" class="btn">
-                            Смотреть все отзывы
-                        </a>
+                    <a href="o-nas/otzyvy/index.html" class="btn">Смотреть все отзывы</a>
                 </div>
             </div>
         </div>
