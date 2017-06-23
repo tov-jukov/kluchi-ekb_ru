@@ -30,9 +30,9 @@ if(! defined("DIAFAN"))
     <meta name="viewport" content="width=device-width">
     <link rel="shortcut icon" href="<insert name=" path ">favicon.ico" type="image/x-icon">
     <!-- шаблонный тег show_css подключает CSS-файлы. Описан в файле themes/functions/show_css.php. -->
-    <!-- <insert name="show_css" files="default.css, style.css"> -->
-    <!-- <link href="<insert name="path">maket/css/style.css" rel="stylesheet"> -->
-    <insert name="show_css" files="style.css">
+    <insert name="show_css" files="default.css, style.css">
+    <link rel="stylesheet" href="<insert name="custom" path="css/style.css">">
+
 </head>
 
 <body>
@@ -60,7 +60,7 @@ if(! defined("DIAFAN"))
                         <a href="#inline1" class="order">Заказать обратный звонок</a>
                         <br/>
                         <br/>
-                        <a href="o-nas/kontakty/index.html">Карта проезда</a>
+                        <a href="#">Карта проезда</a>
                     </div>
                 </div>
             </div>
@@ -479,8 +479,8 @@ if(! defined("DIAFAN"))
                 <div class="tpl-block-list tpl-component-152" id="nc-block-c8793619b034e3b94bfb9b4644e790cc">
                     <div class="review-slider">
                         <div class="item">
-                            <a class="popup-youtube" href="http://www.youtube.com/watch?v=1B8OUSHUlNE">
-                                <img src="netcat_files/42/38/review.jpg_%3b%20filename_%3dutf-8%27%27review.jpg" alt="Он употреблял наркотики 20 лет! Как он смог бросить?">
+                            <a class="popup-youtube" href="http://www.youtube.com/">
+                                <img src="<insert name="custom" path="images/video-ico.jpg">" alt="Он употреблял наркотики 20 лет! Как он смог бросить?">
                             </a>
                             <div class="data-block">
                                 <div class="data">
@@ -496,8 +496,8 @@ if(! defined("DIAFAN"))
   </a>
                         </div>
                         <div class="item">
-                            <a class="popup-youtube" href="http://www.youtube.com/watch?v=1B8OUSHUlNE">
-                                <img src="netcat_files/42/38/review.jpg_%3b%20filename_%3dutf-8%27%27review-2.jpg" alt="Он употреблял наркотики 20 лет! Как он смог бросить?">
+                            <a class="popup-youtube" href="http://www.youtube.com/">
+                                <img src="<insert name="custom" path="images/video-ico.jpg">" alt="Он употреблял наркотики 20 лет! Как он смог бросить?">
                             </a>
                             <div class="data-block">
                                 <div class="data">
@@ -508,7 +508,7 @@ if(! defined("DIAFAN"))
                             <p>
                                 Армен - наркоман с двадцатилетним стажем. Выздоравливает уже 5 месяцев. В клинику &quot;Решение&quot; Армен попал в критическом ...
                             </p>
-                            <a href="o-nas/otzyvy/otzyvy_2.html" class="read-more">
+                            <a href="#" class="read-more">
     читать далее
   </a>
                         </div>
@@ -557,17 +557,17 @@ if(! defined("DIAFAN"))
                     <nav>
                         <ul>
                             <ul>
-                                <li><a href='o-nas/fotogalereya/index.html'>Фотогалерея</a></li>
-                                <li><a href='o-nas/otzyvy/index.html'>Отзывы</a></li>
-                                <li><a href='o-nas/kontakty/index.html'>Контакты</a></li>
+                                <li><a href='#'>Фотогалерея</a></li>
+                                <li><a href='#'>Отзывы</a></li>
+                                <li><a href='#'>Контакты</a></li>
                             </ul>
                             <ul>
-                                <li><a href='rodstvennikam/prinuditelnoe-lechenie-narkomanii/index.html'>Принудительное лечение наркомании</a></li>
-                                <li><a href='rodstvennikam/vyzov-narkologa-domoy/index.html'>Вызов нарколога домой</a></li>
+                                <li><a href='#'>Принудительное лечение наркомании</a></li>
+                                <li><a href='#'>Вызов нарколога домой</a></li>
                             </ul>
                             <ul>
-                                <li><a href='reabilitatsiya/narkologicheskiy-statsionar/index.html'>Наркологический стационар</a></li>
-                                <li><a href='reabilitatsiya/pomosch-narkozavisimym/index.html'>Помощь наркозависимым</a></li>
+                                <li><a href='#'>Наркологический стационар</a></li>
+                                <li><a href='#'>Помощь наркозависимым</a></li>
                             </ul>
                         </ul>
                     </nav>

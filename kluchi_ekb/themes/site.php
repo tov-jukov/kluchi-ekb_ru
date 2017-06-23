@@ -22,16 +22,17 @@ if(! defined("DIAFAN"))
 ?>
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
 
+<html>
 <head>
     <!-- шаблонный тег show_head выводит часть HTML-шапки сайта. Описан в файле themes/functions/show_head.php. -->
     <insert name="show_head">
     <meta name="viewport" content="width=device-width">
-    <link rel="shortcut icon" href="<insert name="path">favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="<insert name=" path ">favicon.ico" type="image/x-icon">
     <!-- шаблонный тег show_css подключает CSS-файлы. Описан в файле themes/functions/show_css.php. -->
-    <!-- <insert name="show_css" files="default.css, style.css"> -->
-    <insert name="show_css" files="style.css">
+    <insert name="show_css" files="default.css, style.css">
+    <link rel="stylesheet" href="<insert name="custom" path="css/style.css" absolute="true">">
+
 </head>
 
 <body>
@@ -268,7 +269,6 @@ if(! defined("DIAFAN"))
                                 <li class='active'><a href='index.html' class='active'>Контакты</a></li>
                             </ul>
                             <ul>
-                                <li><a href='#'>Принудительное лечение наркомании</a></li>
                                 <li><a href='#'>Вызов нарколога домой</a></li>
                             </ul>
                             <ul>
